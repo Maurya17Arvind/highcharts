@@ -11,6 +11,7 @@ import { NegativeColumnChartComponent } from './components/negative-column-chart
 import { ColumnWithDrilldownComponent } from './components/column-with-drilldown/column-with-drilldown.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
+import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ColumnRangeChartComponent } from './components/column-range-chart/colum
     NegativeColumnChartComponent,
     ColumnWithDrilldownComponent,
     HeaderComponent,
-    ColumnRangeChartComponent
+    ColumnRangeChartComponent,
+    ThreeDChartComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { DataTableComponent } from './components/data-table/data-table.component
 import { NegativeColumnChartComponent } from './components/negative-column-chart/negative-column-chart.component';
 import { ColumnWithDrilldownComponent } from './components/column-with-drilldown/column-with-drilldown.component';
 import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
+import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'range-chart',
     component: ColumnRangeChartComponent
+  },
+  {
+    path: '3d-column-chart',
+    component: ThreeDChartComponent
   },
   {
     path: '**',
