@@ -7,7 +7,7 @@ import { ChartsComponent } from './components/charts/charts.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { DataTableComponent } from './components/data-table/data-table.component';
 import { AnalyesCardComponent } from './components/analyes-card/analyes-card.component';
-import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
+import { NegativeColumnChartComponent } from './components/negative-column-chart/negative-column-chart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ColumnRangeChartComponent } from './components/column-range-chart/colum
     ChartsComponent,
     DataTableComponent,
     AnalyesCardComponent,
-    ColumnRangeChartComponent
+    NegativeColumnChartComponent
   ],
   imports: [
     BrowserModule,

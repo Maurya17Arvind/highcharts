@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AnalyesCardComponent } from './components/analyes-card/analyes-card.component';
 import { ChartsComponent } from './components/charts/charts.component';
 import { DataTableComponent } from './components/data-table/data-table.component';
-import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
+import { NegativeColumnChartComponent } from './components/negative-column-chart/negative-column-chart.component';
 
 const routes: Routes = [
   {
@@ -25,7 +25,7 @@ const routes: Routes = [
   },
   {
     path:'range-chart',
-    component:ColumnRangeChartComponent
+    component:NegativeColumnChartComponent
   },
   {
     path:'**',
