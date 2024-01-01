@@ -1,0 +1,18 @@
+<h3 class="text-center detail-header mt-3 mb-4">Companies Details</h3>
+<div class="d-flex justify-content-center">
+  <div class="col-sm-4 card">
+    <img [src]="data.logo" class="p-3 card-img-top" alt="logo image" />
+    <div class="card-body">
+      <h5 class="card-title">{{ data.companyName }}</h5>
+      <p class="card-text">{{ data.description }}</p>
+      <p>Total members : {{ data.totalMembers }}</p>
+      <p>
+        Regisration number:
+        {{ data.registaionNo }}
+      </p>
+      <a routerLink="/companies" class="btn btn-primary"
+        ><i class="fa fa-arrow-left me-2" aria-hidden="true"></i> Back</a
+      >
+    </div>
+  </div>
+</div>

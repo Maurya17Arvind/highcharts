@@ -1,0 +1,8 @@
+.company-chart{
+    height: 500px;
+}
+:host ::ng-deep{
+    .highcharts-credits{
+        display: none;
+    }
+}

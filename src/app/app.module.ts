@@ -3,14 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChartsComponent } from './components/charts/charts.component';
+import { HighchartsChartModule } from 'highcharts-angular';
+import { DataTableComponent } from './components/data-table/data-table.component';
+import { AnalyesCardComponent } from './components/analyes-card/analyes-card.component';
+import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChartsComponent,
+    DataTableComponent,
+    AnalyesCardComponent,
+    ColumnRangeChartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HighchartsChartModule,
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

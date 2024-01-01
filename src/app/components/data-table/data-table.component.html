@@ -1,0 +1,43 @@
+<div class="mt-5 p-3">
+  <h3 class="text-center detail-header mt-3 mb-3">Companies List</h3>
+  <table class="table table-bordered table-responsive text-center">
+    <thead>
+      <tr>
+        <th scope="col">Sr No.</th>
+        <th scope="col">Company Name</th>
+        <th scope="col">Members</th>
+        <th scope="col">Ragistaion No</th>
+        <th scope="col" class="text-center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let company of companies">
+        <th class="align-middle">
+          <div>{{ company.id }}</div>
+        </th>
+        <td class="d-flex align-items-center">
+          <img
+            [src]="company.logo"
+            alt="logo image"
+            class="company-logo rounded-circle"
+          />
+          {{ company.companyName }}
+        </td>
+        <td class="align-middle">{{ company.totalMembers }}</td>
+        <td class="align-middle">{{ company.registaionNo }}</td>
+        <td class="table-actions align-middle text-center">
+          <i
+            class="fa fa-pie-chart fs-4 text-danger"
+            (click)="getChar(company.id)"
+            title="View chart"
+          ></i>
+          <i
+            class="fa fa-id-card fs-4 mx-3 text-primary"
+            (click)="getVisualization(company.id)"
+            title="View visulizations"
+          ></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
