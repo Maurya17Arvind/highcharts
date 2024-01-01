@@ -8,6 +8,8 @@ import { HighchartsChartModule } from 'highcharts-angular';
 import { DataTableComponent } from './components/data-table/data-table.component';
 import { AnalyesCardComponent } from './components/analyes-card/analyes-card.component';
 import { NegativeColumnChartComponent } from './components/negative-column-chart/negative-column-chart.component';
+import { ColumnWithDrilldownComponent } from './components/column-with-drilldown/column-with-drilldown.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NegativeColumnChartComponent } from './components/negative-column-chart
     ChartsComponent,
     DataTableComponent,
     AnalyesCardComponent,
-    NegativeColumnChartComponent
+    NegativeColumnChartComponent,
+    ColumnWithDrilldownComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
