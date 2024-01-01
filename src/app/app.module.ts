@@ -10,6 +10,7 @@ import { AnalyesCardComponent } from './components/analyes-card/analyes-card.com
 import { NegativeColumnChartComponent } from './components/negative-column-chart/negative-column-chart.component';
 import { ColumnWithDrilldownComponent } from './components/column-with-drilldown/column-with-drilldown.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeaderComponent } from './components/header/header.component';
     AnalyesCardComponent,
     NegativeColumnChartComponent,
     ColumnWithDrilldownComponent,
-    HeaderComponent
+    HeaderComponent,
+    ColumnRangeChartComponent
   ],
   imports: [
     BrowserModule,
