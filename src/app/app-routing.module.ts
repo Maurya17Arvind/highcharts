@@ -8,6 +8,7 @@ import { ColumnWithDrilldownComponent } from './components/column-with-drilldown
 import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
 import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.component';
 import { PictorialComponent } from './components/pictorial/pictorial.component';
+import { StockChartComponent } from './components/stock-chart/stock-chart.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'pictorialt',
     component: PictorialComponent
+  },
+  {
+    path: 'stock-chart',
+    component: StockChartComponent
   },
   {
     path: '**',
