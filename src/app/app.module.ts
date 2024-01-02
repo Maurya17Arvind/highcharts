@@ -12,6 +12,7 @@ import { ColumnWithDrilldownComponent } from './components/column-with-drilldown
 import { HeaderComponent } from './components/header/header.component';
 import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
 import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.component';
+import { PictorialComponent } from './components/pictorial/pictorial.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.c
     ColumnWithDrilldownComponent,
     HeaderComponent,
     ColumnRangeChartComponent,
-    ThreeDChartComponent
+    ThreeDChartComponent,
+    PictorialComponent
   ],
   imports: [
     BrowserModule,

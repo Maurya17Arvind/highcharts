@@ -7,6 +7,7 @@ import { NegativeColumnChartComponent } from './components/negative-column-chart
 import { ColumnWithDrilldownComponent } from './components/column-with-drilldown/column-with-drilldown.component';
 import { ColumnRangeChartComponent } from './components/column-range-chart/column-range-chart.component';
 import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.component';
+import { PictorialComponent } from './components/pictorial/pictorial.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: '3d-column-chart',
     component: ThreeDChartComponent
+  },
+  {
+    path: 'pictorialt',
+    component: PictorialComponent
   },
   {
     path: '**',
