@@ -15,6 +15,7 @@ import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.c
 import { PictorialComponent } from './components/pictorial/pictorial.component';
 import { StockChartComponent } from './components/stock-chart/stock-chart.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StockChartAdvanceComponent } from './components/stock-chart-advance/stock-chart-advance.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     ColumnRangeChartComponent,
     ThreeDChartComponent,
     PictorialComponent,
-    StockChartComponent
+    StockChartComponent,
+    StockChartAdvanceComponent
   ],
   imports: [
     BrowserModule,

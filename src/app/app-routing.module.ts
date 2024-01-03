@@ -9,6 +9,7 @@ import { ColumnRangeChartComponent } from './components/column-range-chart/colum
 import { ThreeDChartComponent } from './components/three-d-chart/three-d-chart.component';
 import { PictorialComponent } from './components/pictorial/pictorial.component';
 import { StockChartComponent } from './components/stock-chart/stock-chart.component';
+import { StockChartAdvanceComponent } from './components/stock-chart-advance/stock-chart-advance.component';
 
 const routes: Routes = [
   {
@@ -51,6 +52,10 @@ const routes: Routes = [
   {
     path: 'stock-chart',
     component: StockChartComponent
+  },
+  {
+    path: 'stock-chart-advance',
+    component: StockChartAdvanceComponent
   },
   {
     path: '**',

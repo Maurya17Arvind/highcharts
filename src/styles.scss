@@ -6,3 +6,6 @@ body{
 .detail-header{
     word-spacing: 5px;
 }
+::ng-deep .highcharts-container  {
+    height: 700px !important;
+}
